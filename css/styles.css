@@ -29,8 +29,7 @@ body {
   .container{
     width: 905px;
     margin: 0 auto;
-   /* background-color: teal*/
-
+  
   }
 
   a {
@@ -38,7 +37,6 @@ body {
    }
 
 .site-navigation a {
-  
  
   text-transform: uppercase;
   text-decoration: none;
@@ -50,11 +48,9 @@ body {
 .site-navigation a:focus {
   color: #8ccef8;
 } 
-
  .li1{
   margin-left: 0;
   margin-right: 120px;
-
 }
 .li2 {
   margin-right: 105px;
@@ -64,7 +60,6 @@ body {
 }
 
 li{
-
   margin: 0px;
   display: inline-block;
   font-size: 14px;
@@ -73,22 +68,24 @@ li{
   font-family: 'Playfair Display', serif;
  
 }
-.container .wrapper {
+ .wrapper {
 
   display: inline-block;
+  vertical-align: top;
+  vertical-align: baseline;
   width: 420px;
-  margin-top: 100px;
+  padding-top : 100px;
   margin-right: 60px;
 }
 
-.container .wrapper:nth-child(2n) {
+ .wrapper:nth-child(2n) {
   margin-right: 0px;
 
 }
 
 .bottom {
   font-size: 14px;
-  margin-top: 30px;
+  margin-bottom: 30px;
   color: #b4ad9e;
   font-family: 'Ubuntu', sans-serif;
   font-weight: lighter;
@@ -96,7 +93,6 @@ li{
 }
 .note {
   font-size: 30px;
-  margin-top: 30px;
   margin-bottom: 30px;
   font-weight: lighter;
 }
@@ -110,11 +106,27 @@ li{
 .button{
   width: 165px;
   margin: 0 auto;
-  /*text-align: center;*/
+  text-align: center;
   
 }
 .download-button{
-  
+  background: transparent;
+  border-width: 1px;
+  border-color: #626262;
+  border-style: solid;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: #626262;
+  line-height: 1.2;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  text-align: center;
+  margin-left: 360px;
+  background: inherit;
+  cursor: pointer;
+}
+  /*
 width: 163px;
 height: 60px;
 margin-top: 54px;
@@ -127,5 +139,5 @@ background: inherit;
 cursor: pointer;
 font-family: 'Ubuntu', sans-serif;
 font-weight: lighter;
-
+*/
 }
