@@ -19,9 +19,9 @@ body {
 }
 
 .site-navigation {
-  width: 585px;
+  width: 1200px;
   margin: 0 auto;
-  /*background-color: #8ccef8;*/
+  text-align: center;
   list-style: none;
   padding-left: 0px;
   }
@@ -52,13 +52,15 @@ body {
 } 
 
  .li1{
-  padding-right: 120px;
+  margin-left: 0;
+  margin-right: 120px;
+
 }
 .li2 {
-  padding-right: 105px;
+  margin-right: 105px;
 }
 .li3 {
-  padding-right: 90px;
+  margin-right: 90px;
 }
 
 li{
