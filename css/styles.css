@@ -29,7 +29,7 @@ body {
   .container{
     width: 905px;
     margin: 0 auto;
-  
+    font-size: 0;
   }
 
   a {
@@ -72,10 +72,10 @@ li{
 
   display: inline-block;
   vertical-align: top;
-  vertical-align: baseline;
   width: 420px;
   padding-top : 100px;
   margin-right: 60px;
+  font-size: 14px;
 }
 
  .wrapper:nth-child(2n) {
